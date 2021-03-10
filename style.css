@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
+
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background-color: #f5f6fa;
+  margin: 0;
+}
+
+section.title {
+  background-image: linear-gradient(
+    109.6deg,
+    rgba(96, 221, 142, 1) 11.2%,
+    rgba(24, 138, 141, 1) 91.1%
+  );
+  padding: 15vh 0;
+  text-align: center;
+  box-shadow: 0 2px 30px 30px rgba(0, 0, 0, 0.1);
+}
+
+section.title div.gradientWrapper {
+  color: transparent;
+  background-image: linear-gradient(67.2deg, white -7.5%, #fafafa 62.7%);
+  background-clip: text;
+}
+
+section.title div.gradientWrapper h1 {
+  margin: 0;
+  font-size: 70pt;
+  font-weight: 700;
+}
+
+section.title div.gradientWrapper h2 {
+  margin: 0;
+  font-size: 23pt;
+}
+
+section.icons h2 {
+  margin-top: 50px;
+  font-size: 25pt;
+  text-align: center;
+  font-weight: 800;
+}
